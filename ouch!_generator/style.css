@@ -1,0 +1,44 @@
+body{
+    background-color: white; 
+    color: black;   
+    font-family: sans-serif; 
+}
+
+h1{
+    text-decoration:overline;
+}
+img{
+    border-radius: 8px; 
+   
+}
+img:hover{
+cursor: pointer; 
+}
+
+#machine1, #machine2{
+    background-color: gray;
+    border-radius: 50%; 
+}
+
+#machine1{
+    width: 50px; 
+    height: 50px;
+    
+    @-webkit-keyframes rotating {
+        from{
+            -webkit-transform: rotate(0deg);
+        }
+        to{
+            -webkit-transform: rotate(360deg);
+        }
+    }
+     
+    .rotating {
+        -webkit-animation: rotating 2s linear infinite;
+    }
+}
+
+#machine2{
+    width: 80px; 
+    height: 80px; 
+}
