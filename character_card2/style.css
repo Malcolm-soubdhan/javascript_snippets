@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(40, 40, 41);
+    color: white;  
+    font-family: sans-serif; 
+    font-size: 1.2em; 
+}
+
+.block{
+background-color: rgb(4, 4, 122);
+border-radius: 8px; 
+width: 25%;
+}
+
+.block p, .block h1{
+    padding: 3%; 
+}
+
+h2{
+    text-decoration:overline;
+    background-color: rgb(6, 6, 207);
+}
+img{
+    border-radius: 8px; 
+   
+}
+img:hover{
+cursor: pointer; 
+}
+
+
